@@ -1,0 +1,39 @@
+@import url('../../variables.less');
+
+
+.app-currency {
+    border-color: @inputBorderColor;
+    background-color: @inputBackgroundColor;
+}
+
+
+.app-currency-label {
+    background-color: @primaryColor;
+    color: @primaryContrastColor;
+}
+
+
+.app-currency-flotaing-label {
+}
+
+
+.app-currency-active-flotaing-label {
+}
+
+
+.app-currency-invalid {
+    border-bottom-color: @inputInvalidBorderColor;
+}
+
+
+.app-currency-focused {
+    border-color: @inputFocusBorderColor;
+}
+
+
+.app-currency-placeholder {
+    color: @inputPlaceholderColor;
+}
+
+@import (optional) url('../../../custom/components/input/currency.less');
+@import (optional) url('../../../custom/os/components/input/currency.less');

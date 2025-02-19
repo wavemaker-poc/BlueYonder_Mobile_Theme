@@ -1,0 +1,22 @@
+{
+    "baseFont" : "Calibre-Regular",
+    "fonts" : [
+        {
+            "name": "Calibre-Regular",
+            "path": "./Calibre-font/Calibre-Regular.ttf"
+        },
+        {
+            "name": "Calibre-Medium",
+            "path": "./Calibre-font/Calibre-Medium.ttf"
+        },
+        {
+            "name": "Calibre-Semibold",
+            "path": "./Calibre-font/Calibre-Semibold.ttf"
+        },
+        {
+            "name": "Calibre-Bold",
+            "path": "./Calibre-font/Calibre-Bold.ttf"
+        }
+    
+]
+}

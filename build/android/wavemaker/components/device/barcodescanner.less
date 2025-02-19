@@ -1,0 +1,20 @@
+@import url('../../variables.less');
+
+
+.app-barcodescanner {
+    background-color: @barcodeScannerBgColor;
+    border-color: @barcodeScannerBorderColor;
+}
+
+
+.app-barcodescanner-text {
+    color: @barcodeScannerTextColor;
+}
+
+
+.app-barcodescanner-icon {
+    color: @barcodeScannerTextColor;
+}
+
+@import (optional) url('../../../custom/components/device/barcodescanner.less');
+@import (optional) url('../../../custom/os/components/device/barcodescanner.less');

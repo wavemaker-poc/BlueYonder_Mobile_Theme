@@ -1,0 +1,89 @@
+@import url('../../variables.less');
+
+
+.app-progress-circle {
+}
+
+
+.app-progress-circle-text {
+}
+
+
+.app-progress-circle-bg {
+    background-color: fade(@progressCircleDefaultColor, 60%);
+    stroke: fade(@progressCircleDefaultColor, 60%);
+}
+
+
+.app-progress-circle-value {
+    color: @progressCircleDefaultColor;
+    stroke: @progressCircleDefaultColor;
+}
+
+
+.app-progress-circle-subtitle {
+    color: @labelTextMutedColor;
+}
+
+
+.app-default-progress-circle.app-progress-circle-bg {
+    background-color: fade(@progressCircleDefaultColor, 60%);
+    stroke: fade(@progressCircleDefaultColor, 60%);
+}
+
+
+.app-default-progress-circle.app-progress-circle-value {
+    color: @progressCircleDefaultColor;
+    stroke: @progressCircleDefaultColor;
+}
+
+
+.app-success-progress-circle.app-progress-circle-bg {
+    background-color: fade(@progressCircleSuccessColor, 60%);
+    stroke: fade(@progressCircleSuccessColor, 60%);
+}
+
+
+.app-success-progress-circle.app-progress-circle-value {
+    color: @progressCircleSuccessColor;
+    stroke: @progressCircleSuccessColor;
+}
+
+
+.app-info-progress-circle.app-progress-circle-bg {
+    background-color: fade(@progressCircleInfoColor, 60%);
+    stroke: fade(@progressCircleInfoColor, 60%);
+}
+
+
+.app-info-progress-circle.app-progress-circle-value {
+    color: @progressCircleInfoColor;
+    stroke: @progressCircleInfoColor;
+}
+
+
+.app-danger-progress-circle.app-progress-circle-bg {
+    background-color: fade(@progressCircleDangerColor, 60%);
+    stroke: fade(@progressCircleDangerColor, 60%);
+}
+
+
+.app-danger-progress-circle.app-progress-circle-value {
+    color: @progressCircleDangerColor;
+    stroke: @progressCircleDangerColor;
+}
+
+
+.app-warning-progress-circle.app-progress-circle-bg {
+    background-color: fade(@progressCircleWarningColor, 60%);
+    stroke: fade(@progressCircleWarningColor, 60%);
+}
+
+
+.app-warning-progress-circle.app-progress-circle-value {
+    color: @progressCircleWarningColor;
+    stroke: @progressCircleWarningColor;
+}
+
+@import (optional) url('../../../custom/components/basic/progress-circle.less');
+@import (optional) url('../../../custom/os/components/basic/progress-circle.less');

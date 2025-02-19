@@ -1,0 +1,52 @@
+@import url('../../variables.less');
+
+
+.app-navitem {
+    border-color: @navbarBorderColor;
+}
+
+
+.app-navitem-anchor {
+}
+
+
+.app-navitem-caret {
+}
+
+
+.app-navitem-caret .app-icon-text {
+    color: @navbarCaretColor;
+}
+
+
+.app-navitem-active.app-navitem {
+    background-color: @navitemActiveBackgroundColor;
+}
+
+
+.app-navitem-active.app-navitem-anchor .app-anchor-text {
+    color: @navitemActiveTextColor;
+}
+
+
+.app-navitem-active.app-navitem-anchor .app-anchor-icon .app-icon-shape {
+    color: @navitemActiveIconColor;
+}
+
+
+.app-navitem-child.app-navitem {
+    background-color: @navitemChildBackgroundColor;
+}
+
+
+.app-navitem-child.app-navitem-anchor .app-anchor-text {
+    color: @navitemChildTextColor;
+}
+
+
+.app-navitem-child.app-navitem-anchor .app-anchor-icon .app-icon-shape {
+    color: @navitemChildIconColor;
+}
+
+@import (optional) url('../../../custom/components/navigation/navitem.less');
+@import (optional) url('../../../custom/os/components/navigation/navitem.less');
